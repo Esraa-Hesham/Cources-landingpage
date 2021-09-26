@@ -1,0 +1,46 @@
+<app-top-tab></app-top-tab>
+<app-header (featureSelected)="onNavigaite($event)"></app-header>
+<section class="section_home_slide" id="home">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-5 col-lg-6 order-0 order-md-1 text-end">
+        <img class="pt-7 pt-md-0 w-100" src="assets/img/logo1.png" width="470" alt="">
+      </div>
+      <div class="col-md-7 col-lg-6 text-md-start text-center py-6">
+        <h4 class="fw-bold font-sans-serif headlinetop">Become Master</h4>
+        <h1 class="fs-6 fs-xl-7 mb-5">Learn New Skills Online Find Best Courses</h1>
+        <a class="btn btn-warning me-2 text-decoration-none" href="#!" role="button">Get A Quote</a><a
+          class="btn btn-outline-secondary text-decoration-none" href="#!" role="button">Read
+          more</a>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <app-course-counter></app-course-counter>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <app-featured-courses></app-featured-courses>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <app-successful-student></app-successful-student>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <app-courses-numbers></app-courses-numbers>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <app-subscrible></app-subscrible>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
